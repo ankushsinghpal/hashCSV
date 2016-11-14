@@ -3,9 +3,9 @@ This is a markdown file: https://en.wikipedia.org/wiki/Markdown
 
 #About  
 This is an Open Source Java program you can use to hash (some people mistakenly call it 'encrypt') chosen columns of CSV files.
-The program uses a Java Crypto Message digest, which is a secure one-way hash function that takes arbitrary-sized data and outputs a fixed-length hash value.
+The program uses a Java Crypto Message Digest, which is a secure one-way hash function that takes arbitrary-sized data and outputs a fixed-length hash value.
 This particular program uses the SHA-256 algorithm to perform the hashing.
-Many projects across the world need data to be hashed before 
+Many projects across the world need data in CSV files to be hashed before handing it over to a client.
 
 The master branch is used for active collaborative development.   
 The release branch is used only when a version of the project is ready for release. The release branch is ideally operated only by the repository owner.  
@@ -23,6 +23,8 @@ The release branch is used only when a version of the project is ready for relea
 * Use a hash algorithm that gives a more readable (alphanumeric) hash instead of unknown UTF characters
 * Take inputs about input file, output file and column numbers from the commandline
 * Add a commandline help mode where if the user types something wrong, the program gives examples on how the commands could be used correctly.
+* Display a progress bar for how many lines of the file got completed.
+* Use batch processing to process multiple CSV files.
   
 #Known issues/bugs  
 * None
