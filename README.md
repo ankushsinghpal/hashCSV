@@ -6,6 +6,7 @@ This is an Open Source Java program you can use to hash (some people mistakenly 
 The program uses a Java Crypto Message digest, which is a secure one-way hash function that takes arbitrary-sized data and outputs a fixed-length hash value.
 This particular program uses the SHA-256 algorithm to perform the hashing.
 Many projects across the world need data to be hashed before 
+IMPORTANT: The program starts reading from line number 2 (line numbers start from zero)
 
 The master branch is used for active collaborative development.   
 The release branch is used only when a version of the project is ready for release. The release branch is ideally operated only by the repository owner.  
@@ -21,8 +22,7 @@ The release branch is used only when a version of the project is ready for relea
   
 #TODO list  
 * Use a hash algorithm that gives a more readable (alphanumeric) hash instead of unknown UTF characters
-* Take inputs about input file, output file and column numbers from the commandline
-* Add a commandline help mode where if the user types something wrong, the program gives examples on how the commands could be used correctly.
+* Perhaps use Apache Commons to handle commandline parameters
   
 #Known issues/bugs  
 * None
